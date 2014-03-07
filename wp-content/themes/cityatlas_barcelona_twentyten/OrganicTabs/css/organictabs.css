@@ -1,0 +1,62 @@
+/*
+	 Organic Tabs
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+#tabs {
+	margin: 0 auto;
+}
+
+/* Generic Utility */
+.hide { position: absolute; top: -9999px; left: -9999px; }
+
+
+/* Specific to example one */
+
+#example-one { clear: both; background: #eee; padding: 00px; margin: 0 0 15px 0; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+
+#example-one h4 {
+	padding: 10px 0 10px 10px;
+}
+
+#example-one .nav { overflow: hidden; margin: 0 0 10px 0; }
+#example-one .nav li { width: 120px; float: left; margin: 0 0 0 10px;}
+#example-one .nav li.last { margin-right: 0; }
+#example-one .nav li a { display: block; padding: 5px; background: #959290; color: white; font-size: 1em; text-align: center; border: 0; text-decoration:none; }
+#example-one .nav li a:hover { background-color: #959296; padding-bottom: 2px; border-bottom: solid #555 3px;}
+
+#example-one ul { list-style: none; }
+#example-one ul li a { display: block; border-bottom: 1px solid #666; color: #666; }
+#example-one ul li a:hover { background: #fe4902; color: white; }
+#example-one ul li:last-child a { border: none; }
+
+#example-one ul.nav {border-bottom: #000 solid 1px;}
+
+#example-one ul li.nav-one a.current { background-color: #64b345; color: white; }
+#example-one ul li.nav-two a.current { background-color: #00994e; color: white; }
+#example-one ul li.nav-three a.current { background-color: #b1d235; color: white; }
+#example-one ul li.nav-four a.current { background-color: #FE4902; color: white; }
+
+
+
+/* Specific to example two */
+
+#example-two .list-wrap { background: #efefef; padding: 0px; margin: 0 0 15px 0; }
+
+#example-two ul { list-style: none; }
+#example-two ul li a { display: block; border-bottom: 1px solid #666; color: #666; }
+#example-two ul li a:hover { color: white; -moz-box-shadow: 0 0 5px #666; -webkit-box-shadow: 0 0 5px #666; }
+#example-two ul li:last-child a { border: none; }
+
+#example-two .nav { overflow: hidden; }
+#example-two .nav li { width: 120px; float: left; margin: 0 10px 0 0; }
+#example-two .nav li.last { margin-right: 0; }
+#example-two .nav li a { display: block; padding: 5px; background: #666; color: white; font-size: 12px; text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background:#efefef;
+	 }
+
+#example-two li a.current,#example-two li a.current:hover { background-color: #eee !important; color: black; }
+#example-two .nav li a:hover, #example-two .nav li a:focus { background: #999;}

@@ -1,0 +1,484 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD Taxonomies Tools 1.0.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Marek Walczak <kubdat@poczta.fm>\n"
+"Language-Team: Shakaran <shakaran@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: code/js.php:2
+msgid "Are you sure? Operation is not reversible."
+msgstr "Jesteś pewien? Operacja jest nieodwracalna."
+
+#: code/js.php:11
+#: forms/admin/taxonomy.form.php:3
+#: forms/render/tax.header.php:5
+msgid "Name"
+msgstr "Nazwa"
+
+#: code/js.php:12
+#: forms/admin/taxonomy.form.php:14
+#: forms/render/tax.header.php:4
+msgid "Label"
+msgstr "Etykieta"
+
+#: code/js.php:14
+msgid "Some fields must be filled. Check this: "
+msgstr "Niektóre pola muszą być wypełnione. Sprawdź to:"
+
+#: forms/admin/settings.php:3
+msgid "General"
+msgstr "Główne"
+
+#: forms/admin/settings.php:4
+msgid "Sitemap"
+msgstr "Mapa strony"
+
+#: forms/admin/settings.php:15
+msgid "Save Settings"
+msgstr "Zapisz ustawienia"
+
+#: forms/admin/taxonomies.php:46
+msgid "Add New"
+msgstr "Dodaj nową"
+
+#: forms/admin/taxonomies.php:8
+msgid "Default Taxonomies:"
+msgstr "Domyślne Taxonomie:"
+
+#: forms/admin/taxonomies.php:17
+msgid "Custom Taxonomies:"
+msgstr "Własne Taxonomie:"
+
+#: forms/admin/taxonomies.php:27
+msgid "Inactive Custom Taxonomies:"
+msgstr "Nieaktywne Taxonomie własne:"
+
+#: forms/admin/taxonomies.php:38
+msgid "Deleting the taxonomy will also delete the relationship entries in the database. Backup your database before proceeding with any deletion operation."
+msgstr "Pamiętaj, przy usuwaniu Taxonomii należy również usunąć wpisy relacji w bazie danych. Utwórz kopię zapasową bazy danych przed rozpoczęciem operacji usuwania."
+
+#: forms/admin/taxonomies.php:39
+msgid "After deleting taxonomy, terms relationships in the database will remain."
+msgstr "Po usunięciu Taxonomii, w bazie danych pozostaną relacje."
+
+#: forms/admin/taxonomies.php:40
+msgid "You can change that on the settings panel."
+msgstr "Możesz to zmienić w panelu ustawień."
+
+#: forms/admin/taxonomy.add.php:24
+#: forms/admin/taxonomy.edit.php:12
+msgid "Go Back"
+msgstr "Wróć"
+
+#: forms/admin/taxonomy.add.php:16
+#: forms/admin/taxonomy.edit.php:4
+msgid "Name for the taxonomy is invalid. Fix before proceeding."
+msgstr "Nazwa Taxonomii jest niepoprawna. Zmień ją przed wysłaniem."
+
+#: forms/admin/taxonomy.add.php:22
+msgid "New taxonomy added."
+msgstr "Dodano nową Taxonomię."
+
+#: forms/admin/taxonomy.edit.php:10
+msgid "Taxonomy updated."
+msgstr "Zaktualizowano Taxonomię."
+
+#: forms/admin/taxonomy.form.php:7
+msgid "Allow renaming of the taxonomy name. This will cause renaming all database entries for this taxonomy."
+msgstr "Umożliwia zmianę nazwy Taxonomii. Spowoduje zmianę nazwy wszystkich wpisów bazy danych dla tej taxonomii."
+
+#: forms/admin/taxonomy.form.php:10
+msgid "This must be unique name, not used by any other taxonomy."
+msgstr "Musisz użyć unikalnej nazwy, nieużywanej przez inne taxonomie."
+
+#: forms/admin/taxonomy.form.php:11
+msgid "Also, use only lower case letters and no special characters except for the underscore."
+msgstr "Oczywiście należy używać małych liter, bez znków specjalnych za wyjątkiem podkreślenia."
+
+#: forms/admin/taxonomy.form.php:18
+msgid "This is the display name for the taxonomy."
+msgstr "To jest wyświetlana nazwa dla taxonomii."
+
+#: forms/admin/taxonomy.form.php:21
+#: gd-taxonomies-tools.php:159
+#: gd-taxonomies-tools.php:360
+#: gd-taxonomies-tools.php:394
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: forms/admin/taxonomy.form.php:26
+#: forms/render/tax.header.php:3
+msgid "Domain"
+msgstr "Domena"
+
+#: forms/admin/taxonomy.form.php:30
+msgid "Posts"
+msgstr "Wpisy"
+
+#: forms/admin/taxonomy.form.php:31
+#: forms/modules/info.php:18
+msgid "Links"
+msgstr "Linki"
+
+#: forms/admin/taxonomy.form.php:37
+#: forms/render/tax.header.php:8
+msgid "Hierarchical"
+msgstr "Hierarchicznie"
+
+#: forms/admin/taxonomy.form.php:41
+#: forms/admin/taxonomy.form.php:54
+#: forms/admin/taxonomy.form.php:72
+msgid "No"
+msgstr "Nie"
+
+#: forms/admin/taxonomy.form.php:42
+msgid "Yes"
+msgstr "Tak"
+
+#: forms/admin/taxonomy.form.php:48
+#: forms/render/tax.header.php:6
+msgid "Rewrite"
+msgstr "Przepisz"
+
+#: forms/admin/taxonomy.form.php:52
+#: forms/admin/taxonomy.form.php:70
+msgid "Yes, using name"
+msgstr "Tak, używając nazwy"
+
+#: forms/admin/taxonomy.form.php:53
+#: forms/admin/taxonomy.form.php:71
+msgid "Yes, custom value"
+msgstr "Tak, własną wartość"
+
+#: forms/admin/taxonomy.form.php:58
+#: forms/admin/taxonomy.form.php:76
+msgid "Custom"
+msgstr "Własne"
+
+#: forms/admin/taxonomy.form.php:66
+msgid "Query Variable"
+msgstr "Zmienna ankieta"
+
+#: forms/admin/taxonomy.form.php:84
+msgid "For rewrite and query custom variables use only lower case letters and no special characters except for the underscore."
+msgstr "Do przepisywania lub zmiany własnych ankiet użyj tylko małych liter, bez znaków specjalnych z wyjątkiem podkreślenia."
+
+#: forms/admin/taxonomy.form.php:85
+msgid "With WP 2.8.x and WP 2.9.x not all options work, and they are disabled. Once the WordPress starts supporting this option, they will be enabled."
+msgstr "W WP 2.8x i WP 2.9.x nie wszystkie funkcje działąją. WordPress rozwiązuje ten problem i uruchomi te funkcje."
+
+#: forms/admin/taxonomy.form.php:88
+msgid "Status"
+msgstr "Pozycja"
+
+#: forms/admin/taxonomy.form.php:90
+msgid "Taxonomy is set to active."
+msgstr "Taxonomia jest aktywna."
+
+#: forms/admin/taxonomy.form.php:94
+msgid "Save Taxonomy"
+msgstr "Zapisz Taxonomie"
+
+#: forms/modules/general.php:8
+msgid "Basic statistics"
+msgstr "Podstawowe statystyki"
+
+#: forms/modules/general.php:10
+msgid "Default Taxonomies"
+msgstr "Domyślne Taxonomie"
+
+#: forms/modules/general.php:15
+#: forms/modules/general.php:20
+#: forms/modules/general.php:25
+#: forms/modules/general.php:37
+msgid "for"
+msgstr "dla"
+
+#: forms/modules/general.php:15
+#: forms/modules/general.php:20
+#: widgets/gdtt-terms-list.php:52
+msgid "posts"
+msgstr "wpisów"
+
+#: forms/modules/general.php:15
+#: forms/modules/general.php:37
+msgid "hierarchical"
+msgstr "hierarchicznie"
+
+#: forms/modules/general.php:25
+msgid "links"
+msgstr "linki"
+
+#: forms/modules/general.php:31
+msgid "Custom Taxonomies"
+msgstr "Własne Taxonomie"
+
+#: forms/modules/info.php:3
+msgid "Info"
+msgstr "Informacje"
+
+#: forms/modules/info.php:7
+msgid "Version"
+msgstr "Wersja"
+
+#: forms/modules/info.php:8
+msgid "release date"
+msgstr "Data wydania"
+
+#: forms/modules/info.php:12
+msgid "Change Log"
+msgstr "Lista zmian"
+
+#: forms/modules/info.php:13
+msgid "detailed list of changes"
+msgstr "Szczegółowa lista zmian"
+
+#: forms/modules/info.php:14
+msgid "show"
+msgstr "pokaż"
+
+#: forms/modules/info.php:23
+msgid "official plugin page"
+msgstr "Oficjalna strona wtyczki"
+
+#: forms/modules/info.php:24
+#: forms/modules/info.php:29
+#: forms/modules/info.php:34
+#: forms/modules/info.php:44
+#: forms/modules/info.php:58
+#: forms/modules/info.php:63
+#: forms/modules/info.php:68
+#: forms/modules/info.php:73
+#: forms/modules/info.php:78
+msgid "visit"
+msgstr "zobacz"
+
+#: forms/modules/info.php:28
+msgid "discussions group"
+msgstr "Grupa dyskusyjna"
+
+#: forms/modules/info.php:33
+msgid "wordpress plugin page"
+msgstr "Strona wtyczki na Wordpress"
+
+#: forms/modules/info.php:38
+msgid "Editions"
+msgstr "Edycje"
+
+#: forms/modules/info.php:42
+msgid "Lite / Pro"
+msgstr "Lite / Pro"
+
+#: forms/modules/info.php:43
+msgid "both editions of the plugin"
+msgstr "Obie wersje wtyczki"
+
+#: forms/modules/info.php:56
+msgid "Official Website"
+msgstr "Oficjalna strona"
+
+#: forms/modules/info.php:57
+msgid "golden dragon official web portal"
+msgstr "Oficjalna strona Golden Dragon"
+
+#: forms/modules/info.php:62
+msgid "tv shows reviews and news"
+msgstr "Streszczenie programów telewizyjnych"
+
+#: forms/modules/info.php:67
+msgid "a wordpress rating system"
+msgstr "System ocen Wordpress"
+
+#: forms/modules/info.php:72
+msgid "wordpress development"
+msgstr "Rozwój Wordpress"
+
+#: forms/modules/info.php:76
+msgid "Support Forum"
+msgstr "Forum"
+
+#: forms/modules/info.php:77
+msgid "development discussion forum"
+msgstr "Forum dyskusyjne"
+
+#: forms/render/tax.header.php:7
+msgid "Query"
+msgstr "Ankieta"
+
+#: forms/render/tax.header.php:9
+msgid "Terms"
+msgstr "Wyrażenia"
+
+#: forms/render/tax.header.php:10
+msgid "Options"
+msgstr "Opcje"
+
+#: forms/render/tax.item.php:28
+msgid "delete"
+msgstr "usuń"
+
+#: forms/render/tax.item.php:29
+msgid "edit"
+msgstr "edytuj"
+
+#: forms/render/tax.item.php:31
+msgid "terms"
+msgstr "wyrażenia"
+
+#: forms/render/tax.item.php:24
+msgid "yes"
+msgstr "tak"
+
+#: forms/render/tax.item.php:24
+msgid "no"
+msgstr "nie"
+
+#: forms/settings/general.php:1
+msgid "Delete"
+msgstr "Usuń"
+
+#: forms/settings/general.php:3
+msgid "Delete terms from database once the taxonomy is deleted."
+msgstr "Usuwa wyrażenia z bazy danych kiedy usuwana jest taxonomia."
+
+#: forms/settings/general.php:5
+msgid "If this options is not checked, after deleting taxonomy all it's terms will remain in the database."
+msgstr "Jeśli ta opcja jest zaznaczona, po usunięciu taxonomii wszystkie wyrażenia pozostaną w bazie danych."
+
+#: forms/settings/sitemap.php:1
+msgid "Rebuild"
+msgstr "Odtwórz"
+
+#: forms/settings/sitemap.php:3
+msgid "Add custom taxonomies terms URL's to sitemap file."
+msgstr "Dodaj własne adresy wyrażeń taxonomii do pliku mapy strony."
+
+#: forms/settings/sitemap.php:5
+msgid "This option requires XML Sitemap Generator plugin. Once the sitemap is generated, new terms URL's will be added to it."
+msgstr "Ta opcja wymaga wtyczki XML Sitemap Generator. Przy generowaniu mapy strony, nowe adresy wyrażeń zostaną dodane."
+
+#: forms/shared/front.header.php:8
+msgid "plugin for custom taxonomies managment"
+msgstr "Zarządzanie wtyczką dla własnych Taxonomii"
+
+#: widgets/gdtt-terms-cloud/basic.php:2
+#: widgets/gdtt-terms-list/basic.php:2
+msgid "Title"
+msgstr "Tytuł"
+
+#: widgets/gdtt-terms-cloud/basic.php:8
+#: widgets/gdtt-terms-list/basic.php:8
+msgid "Maximum terms to show"
+msgstr "Maksymalna ilość wyświetlanych wyrażeń"
+
+#: widgets/gdtt-terms-cloud/display.php:2
+#: widgets/gdtt-terms-list/display.php:8
+msgid "Additional CSS class"
+msgstr "Dodatkowa klasa CSS"
+
+#: widgets/gdtt-terms-cloud/display.php:8
+msgid "Font size unit"
+msgstr "Język czcionki"
+
+#: widgets/gdtt-terms-cloud/display.php:12
+msgid "Smallest term size"
+msgstr "Mniejszy rozmiar wyrażenia"
+
+#: widgets/gdtt-terms-cloud/display.php:16
+msgid "Largest term size"
+msgstr "Większy rozmiar wyrażenia"
+
+#: widgets/gdtt-terms-cloud/filter.php:2
+#: widgets/gdtt-terms-list/filter.php:2
+msgid "Taxonomy"
+msgstr "Taxonomia"
+
+#: widgets/gdtt-terms-cloud/filter.php:10
+#: widgets/gdtt-terms-list/filter.php:10
+msgid "Sort by"
+msgstr "Sortuj wg"
+
+#: widgets/gdtt-terms-cloud/filter.php:13
+#: widgets/gdtt-terms-list/filter.php:13
+msgid "Term name"
+msgstr "Nazwa wyrażenia"
+
+#: widgets/gdtt-terms-cloud/filter.php:14
+#: widgets/gdtt-terms-list/filter.php:14
+msgid "Posts count"
+msgstr "Ilość wpisów"
+
+#: widgets/gdtt-terms-cloud/filter.php:19
+#: widgets/gdtt-terms-list/filter.php:19
+msgid "Order"
+msgstr "Kolejność"
+
+#: widgets/gdtt-terms-cloud/filter.php:22
+#: widgets/gdtt-terms-list/filter.php:22
+msgid "Ascending"
+msgstr "Rosnąco"
+
+#: widgets/gdtt-terms-cloud/filter.php:23
+#: widgets/gdtt-terms-list/filter.php:23
+msgid "Descending"
+msgstr "Malejąco"
+
+#: widgets/gdtt-terms-list/display.php:2
+msgid "Show number of posts"
+msgstr "Pokaż numer wpisu"
+
+#: widgets/gdtt-terms-cloud.php:18
+msgid "Display cloud with taxonomy terms."
+msgstr "Wyświetla chmurę wyrażeń taxonomii."
+
+#: widgets/gdtt-terms-list.php:16
+msgid "Display list with taxonomy terms."
+msgstr "Wyświetl listę wyrażeń taxonomii."
+
+#: widgets/gdtt-terms-list.php:52
+msgid "post"
+msgstr "wpis"
+
+#: gd-taxonomies-tools.php:160
+msgid "Donate"
+msgstr "Wesprzyj"
+
+#: gd-taxonomies-tools.php:170
+#: gd-taxonomies-tools.php:359
+#: gd-taxonomies-tools.php:420
+msgid "Taxonomies"
+msgstr "Taxonomie"
+
+#: gd-taxonomies-tools.php:358
+msgid "Front Page"
+msgstr "Strona główna"
+
+#: gd-taxonomies-tools.php:405
+msgid "Tools"
+msgstr "Narzędzia"
+
+#: gd-taxonomies-tools.php:424
+msgid "Add new Taxonomy"
+msgstr "Dodaj nową Taxonomię"
+
+#: gd-taxonomies-tools.php:428
+msgid "Edit Taxonomy"
+msgstr "Edytuj Taxonomie"
+
+#~ msgid "With WP 2.8.x not all options work, and they are disabled."
+#~ msgstr ""
+#~ "Con WP 2.8.x no todas las opciones funcionaran y ellas serán "
+#~ "desabilitadas."
+
+#~ msgid "help further development"
+#~ msgstr "Ayuda añadida al desarrollo"
+
+#~ msgid "extended premium version"
+#~ msgstr "versión premium extendida"

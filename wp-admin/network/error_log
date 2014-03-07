@@ -1,0 +1,18 @@
+[07-Jan-2013 21:03:30 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/cityatla/public_html/wp-content/plugins/embedly/uninstall.php on line 5 and defined in /home/cityatla/public_html/wp-includes/wp-db.php on line 990
+[07-Jan-2013 21:03:30 UTC] WordPress database error Unknown table 'wp_atlasmu_embedly_providers' for query DROP TABLE wp_atlasmu_embedly_providers; made by require('wp-admin/plugins.php'), delete_plugins, uninstall_plugin, include('/plugins/embedly/uninstall.php'), embedly_uninstall
+[27-Mar-2013 19:56:08 UTC] PHP Fatal error:  Out of memory (allocated 52953088) (tried to allocate 30720 bytes) in /home/cityatla/public_html/wp-includes/class-wp-admin-bar.php on line 112
+[27-Mar-2013 19:57:24 UTC] PHP Fatal error:  Out of memory (allocated 40370176) (tried to allocate 122880 bytes) in /home/cityatla/public_html/wp-content/plugins/wp-supersized/includes/CustomMetabox.php on line 207
+[27-Mar-2013 20:01:12 UTC] PHP Fatal error:  Out of memory (allocated 53215232) (tried to allocate 122880 bytes) in /home/cityatla/public_html/wp-admin/custom-header.php on line 544
+[27-Mar-2013 20:02:35 UTC] PHP Fatal error:  Out of memory (allocated 41418752) (tried to allocate 8192 bytes) in /home/cityatla/public_html/wp-includes/functions.php on line 3511
+[27-Mar-2013 20:04:33 UTC] PHP Fatal error:  Out of memory (allocated 41418752) (tried to allocate 8283 bytes) in /home/cityatla/public_html/wp-includes/functions.php on line 3517
+[28-Mar-2013 06:12:28 UTC] PHP Fatal error:  Out of memory (allocated 40894464) (tried to allocate 122880 bytes) in /home/cityatla/public_html/wp-includes/locale.php on line 152
+[28-Mar-2013 06:12:33 UTC] PHP Fatal error:  Out of memory (allocated 33292288) (tried to allocate 30720 bytes) in /home/cityatla/public_html/wp-includes/pluggable.php on line 969
+[28-Mar-2013 06:52:19 UTC] PHP Fatal error:  Out of memory (allocated 55050240) (tried to allocate 79 bytes) in /home/cityatla/public_html/wp-includes/capabilities.php on line 748
+[28-Mar-2013 06:52:38 UTC] PHP Fatal error:  Out of memory (allocated 39845888) (tried to allocate 30720 bytes) in /home/cityatla/public_html/wp-content/plugins/jetpack/modules/stats.php on line 864
+[28-Mar-2013 06:52:54 UTC] PHP Fatal error:  Out of memory (allocated 55050240) (tried to allocate 122880 bytes) in /home/cityatla/public_html/wp-admin/network/menu.php on line 51
+[28-Mar-2013 07:04:07 UTC] PHP Fatal error:  Out of memory (allocated 41943040) (tried to allocate 7680 bytes) in /home/cityatla/public_html/wp-includes/class-wp-admin-bar.php on line 15
+[28-Mar-2013 07:04:09 UTC] PHP Fatal error:  Out of memory (allocated 47710208) (tried to allocate 30720 bytes) in /home/cityatla/public_html/wp-admin/includes/template.php on line 559
+[28-Mar-2013 07:04:16 UTC] PHP Fatal error:  Out of memory (allocated 45350912) (tried to allocate 72 bytes) in /home/cityatla/public_html/wp-content/plugins/shortcodes-ultimate/lib/available.php on line 705
+[28-Mar-2013 07:20:27 UTC] PHP Fatal error:  Out of memory (allocated 34865152) (tried to allocate 30720 bytes) in /home/cityatla/public_html/wp-content/plugins/jetpack/functions.opengraph.php on line 126
+[28-Mar-2013 07:20:52 UTC] PHP Fatal error:  Out of memory (allocated 43253760) (tried to allocate 44335 bytes) in /home/cityatla/public_html/wp-includes/kses.php on line 968
+[28-Mar-2013 07:21:00 UTC] PHP Fatal error:  Out of memory (allocated 38010880) (tried to allocate 7680 bytes) in /home/cityatla/public_html/wp-content/plugins/yet-another-related-posts-plugin/class-cache.php on line 11

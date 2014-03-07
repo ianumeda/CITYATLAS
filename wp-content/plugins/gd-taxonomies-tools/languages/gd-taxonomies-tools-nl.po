@@ -1,0 +1,484 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gd-taxonomies-tools\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Mindspins <webmaster[at]mindspins.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: code/js.php:2
+msgid "Are you sure? Operation is not reversible."
+msgstr "Weet u het zeker? Deze handeling is onomkeerbaar."
+
+#: code/js.php:11
+#: forms/admin/taxonomy.form.php:3
+#: forms/render/tax.header.php:5
+msgid "Name"
+msgstr "Naam"
+
+#: code/js.php:12
+#: forms/admin/taxonomy.form.php:14
+#: forms/render/tax.header.php:4
+msgid "Label"
+msgstr "Etiket"
+
+#: code/js.php:14
+msgid "Some fields must be filled. Check this: "
+msgstr "Sommige velden moeten gevuld worden. Kijk hier:"
+
+#: forms/admin/settings.php:3
+msgid "General"
+msgstr "Algemeen"
+
+#: forms/admin/settings.php:4
+msgid "Sitemap"
+msgstr "sitemap"
+
+#: forms/admin/settings.php:15
+msgid "Save Settings"
+msgstr "Bewaar instellingen"
+
+#: forms/admin/taxonomies.php:46
+msgid "Add New"
+msgstr "Nieuwe"
+
+#: forms/admin/taxonomies.php:8
+msgid "Default Taxonomies:"
+msgstr "Standaard Taxonomies"
+
+#: forms/admin/taxonomies.php:17
+msgid "Custom Taxonomies:"
+msgstr "Speciale Taxonomies"
+
+#: forms/admin/taxonomies.php:27
+msgid "Inactive Custom Taxonomies:"
+msgstr "Niet aktieve Taxonomies:"
+
+#: forms/admin/taxonomies.php:38
+msgid "Deleting the taxonomy will also delete the relationship entries in the database. Backup your database before proceeding with any deletion operation."
+msgstr "Het verwijderen van de Taxonomie, zal de relatie met de database velden wissen. Maak een backup van de database voor het verwijderen."
+
+#: forms/admin/taxonomies.php:39
+msgid "After deleting taxonomy, terms relationships in the database will remain."
+msgstr "Na het verwijderen van de Taxonomie, zal de relatie met de databasevelden blijven bestaan."
+
+#: forms/admin/taxonomies.php:40
+msgid "You can change that on the settings panel."
+msgstr "U kunt dit veranderen in het instellingen paneel."
+
+#: forms/admin/taxonomy.add.php:24
+#: forms/admin/taxonomy.edit.php:12
+msgid "Go Back"
+msgstr "Terug"
+
+#: forms/admin/taxonomy.add.php:16
+#: forms/admin/taxonomy.edit.php:4
+msgid "Name for the taxonomy is invalid. Fix before proceeding."
+msgstr "De naam voor deze Taxonomie is onjuist. Verander deze voor u verder gaat."
+
+#: forms/admin/taxonomy.add.php:22
+msgid "New taxonomy added."
+msgstr "Nieuwe Taxonomie toegevoegd."
+
+#: forms/admin/taxonomy.edit.php:10
+msgid "Taxonomy updated."
+msgstr "Taxonomie bijgewerkt."
+
+#: forms/admin/taxonomy.form.php:7
+msgid "Allow renaming of the taxonomy name. This will cause renaming all database entries for this taxonomy."
+msgstr "Hernoemen van de Taxonomie toestaan. Alle database toevoegingen zullen ook hernoemd worden."
+
+#: forms/admin/taxonomy.form.php:10
+msgid "This must be unique name, not used by any other taxonomy."
+msgstr "Kies voor een unieke naam, niet gebruikt door een andere Taxonomie"
+
+#: forms/admin/taxonomy.form.php:11
+msgid "Also, use only lower case letters and no special characters except for the underscore."
+msgstr "Gebruik ook alleen onderkast (kleine) letters en geen spciale karakters behalve de \"underscore\"."
+
+#: forms/admin/taxonomy.form.php:18
+msgid "This is the display name for the taxonomy."
+msgstr "Dit is de Taxonomie naam die getoond wordt."
+
+#: forms/admin/taxonomy.form.php:21
+#: gd-taxonomies-tools.php:159
+#: gd-taxonomies-tools.php:360
+#: gd-taxonomies-tools.php:394
+msgid "Settings"
+msgstr "Instellingen"
+
+#: forms/admin/taxonomy.form.php:26
+#: forms/render/tax.header.php:3
+msgid "Domain"
+msgstr "Domein"
+
+#: forms/admin/taxonomy.form.php:30
+msgid "Posts"
+msgstr "Berichten"
+
+#: forms/admin/taxonomy.form.php:31
+#: forms/modules/info.php:18
+msgid "Links"
+msgstr "Links"
+
+#: forms/admin/taxonomy.form.php:37
+#: forms/render/tax.header.php:8
+msgid "Hierarchical"
+msgstr "Hierargisch"
+
+#: forms/admin/taxonomy.form.php:41
+#: forms/admin/taxonomy.form.php:54
+#: forms/admin/taxonomy.form.php:72
+msgid "No"
+msgstr "Nee"
+
+#: forms/admin/taxonomy.form.php:42
+msgid "Yes"
+msgstr "Ja"
+
+#: forms/admin/taxonomy.form.php:48
+#: forms/render/tax.header.php:6
+msgid "Rewrite"
+msgstr "Herschrijven"
+
+#: forms/admin/taxonomy.form.php:52
+#: forms/admin/taxonomy.form.php:70
+msgid "Yes, using name"
+msgstr "Ja, gebruik naam"
+
+#: forms/admin/taxonomy.form.php:53
+#: forms/admin/taxonomy.form.php:71
+msgid "Yes, custom value"
+msgstr "Ja, extra waarde"
+
+#: forms/admin/taxonomy.form.php:58
+#: forms/admin/taxonomy.form.php:76
+msgid "Custom"
+msgstr "Extra"
+
+#: forms/admin/taxonomy.form.php:66
+msgid "Query Variable"
+msgstr "Query variabel"
+
+#: forms/admin/taxonomy.form.php:84
+msgid "For rewrite and query custom variables use only lower case letters and no special characters except for the underscore."
+msgstr "Voor het herschrijven van de extra query-variabelen alleen onderkast (kleine) letters en geen spciale karakters behalve de \"underscore\" gebruiken."
+
+#: forms/admin/taxonomy.form.php:85
+msgid "With WP 2.8.x and WP 2.9.x not all options work, and they are disabled. Once the WordPress starts supporting this option, they will be enabled."
+msgstr "In WP 2.8.x en WP 2.9.x zijn niet alle opties werkzaam en daarom uit gezet. Zodra WordPress deze gaat ondersteunen worden ze weer aan gezet."
+
+#: forms/admin/taxonomy.form.php:88
+msgid "Status"
+msgstr "Status"
+
+#: forms/admin/taxonomy.form.php:90
+msgid "Taxonomy is set to active."
+msgstr "Taxonomie is niet aktief"
+
+#: forms/admin/taxonomy.form.php:94
+msgid "Save Taxonomy"
+msgstr "Bewaar Taxonomie"
+
+#: forms/modules/general.php:8
+msgid "Basic statistics"
+msgstr "Basis statistieken"
+
+#: forms/modules/general.php:10
+msgid "Default Taxonomies"
+msgstr "Standaard Taxonomies"
+
+#: forms/modules/general.php:15
+#: forms/modules/general.php:20
+#: forms/modules/general.php:25
+#: forms/modules/general.php:37
+msgid "for"
+msgstr "voor"
+
+#: forms/modules/general.php:15
+#: forms/modules/general.php:20
+#: widgets/gdtt-terms-list.php:52
+msgid "posts"
+msgstr "bericht"
+
+#: forms/modules/general.php:15
+#: forms/modules/general.php:37
+msgid "hierarchical"
+msgstr "hierarchisch"
+
+#: forms/modules/general.php:25
+msgid "links"
+msgstr "links"
+
+#: forms/modules/general.php:31
+msgid "Custom Taxonomies"
+msgstr "Extra Taxonomies"
+
+#: forms/modules/info.php:3
+msgid "Info"
+msgstr "Info"
+
+#: forms/modules/info.php:7
+msgid "Version"
+msgstr "Versie"
+
+#: forms/modules/info.php:8
+msgid "release date"
+msgstr "uitgavedatum"
+
+#: forms/modules/info.php:12
+msgid "Change Log"
+msgstr "Verander log"
+
+#: forms/modules/info.php:13
+msgid "detailed list of changes"
+msgstr "gedetaileerde lijst van veranderingen"
+
+#: forms/modules/info.php:14
+msgid "show"
+msgstr "toon"
+
+#: forms/modules/info.php:23
+msgid "official plugin page"
+msgstr "officiele pluginpagina"
+
+#: forms/modules/info.php:24
+#: forms/modules/info.php:29
+#: forms/modules/info.php:34
+#: forms/modules/info.php:44
+#: forms/modules/info.php:58
+#: forms/modules/info.php:63
+#: forms/modules/info.php:68
+#: forms/modules/info.php:73
+#: forms/modules/info.php:78
+msgid "visit"
+msgstr "bezoek"
+
+#: forms/modules/info.php:28
+msgid "discussions group"
+msgstr "discussiegroep"
+
+#: forms/modules/info.php:33
+msgid "wordpress plugin page"
+msgstr "WordPress pluginpagina"
+
+#: forms/modules/info.php:38
+msgid "Editions"
+msgstr "Uitgaven"
+
+#: forms/modules/info.php:42
+msgid "Lite / Pro"
+msgstr "Lite / Pro"
+
+#: forms/modules/info.php:43
+msgid "both editions of the plugin"
+msgstr "beide edities van de plugin"
+
+#: forms/modules/info.php:56
+msgid "Official Website"
+msgstr "Officiele website"
+
+#: forms/modules/info.php:57
+msgid "golden dragon official web portal"
+msgstr "golden dragons officiele webportal"
+
+#: forms/modules/info.php:62
+msgid "tv shows reviews and news"
+msgstr "tv show beoordelingen en nieuws"
+
+#: forms/modules/info.php:67
+msgid "a wordpress rating system"
+msgstr "een WordPress waarderingssysteem"
+
+#: forms/modules/info.php:72
+msgid "wordpress development"
+msgstr "WordPress ontwikkeling"
+
+#: forms/modules/info.php:76
+msgid "Support Forum"
+msgstr "Ondersteuningsforum"
+
+#: forms/modules/info.php:77
+msgid "development discussion forum"
+msgstr "Ontwikkeling- en ondersteuningforum"
+
+#: forms/render/tax.header.php:7
+msgid "Query"
+msgstr "Query"
+
+#: forms/render/tax.header.php:9
+msgid "Terms"
+msgstr "Labels"
+
+#: forms/render/tax.header.php:10
+msgid "Options"
+msgstr "Instellingen"
+
+#: forms/render/tax.item.php:28
+msgid "delete"
+msgstr "verwijder"
+
+#: forms/render/tax.item.php:29
+msgid "edit"
+msgstr "bewerk"
+
+#: forms/render/tax.item.php:31
+msgid "terms"
+msgstr "labels"
+
+#: forms/render/tax.item.php:24
+msgid "yes"
+msgstr "ja"
+
+#: forms/render/tax.item.php:24
+msgid "no"
+msgstr "nee"
+
+#: forms/settings/general.php:1
+msgid "Delete"
+msgstr "Verwijder"
+
+#: forms/settings/general.php:3
+msgid "Delete terms from database once the taxonomy is deleted."
+msgstr "Verwijder voorwaarden van de database zodra de Taxonomie verwijderd is."
+
+#: forms/settings/general.php:5
+msgid "If this options is not checked, after deleting taxonomy all it's terms will remain in the database."
+msgstr "Als deze optie niet aangevinkt is, blijven de voorwaarden in de database nadat de Taxonomie verwijderd is."
+
+#: forms/settings/sitemap.php:1
+msgid "Rebuild"
+msgstr "Herbouw"
+
+#: forms/settings/sitemap.php:3
+msgid "Add custom taxonomies terms URL's to sitemap file."
+msgstr "Voeg extra Taxonomie links toe aan de sitemap"
+
+#: forms/settings/sitemap.php:5
+msgid "This option requires XML Sitemap Generator plugin. Once the sitemap is generated, new terms URL's will be added to it."
+msgstr "Deze optie heeft de XML Sitemap Generator Plugin nodig. Zodra de sitemap gegenereerd is, zullen de nieuwe links toegevoegd worden."
+
+#: forms/shared/front.header.php:8
+msgid "plugin for custom taxonomies managment"
+msgstr "plugin voor extra Taxonomies"
+
+#: widgets/gdtt-terms-cloud/basic.php:2
+#: widgets/gdtt-terms-list/basic.php:2
+msgid "Title"
+msgstr "Titel"
+
+#: widgets/gdtt-terms-cloud/basic.php:8
+#: widgets/gdtt-terms-list/basic.php:8
+msgid "Maximum terms to show"
+msgstr "Maximaal aantal te tonen labels"
+
+#: widgets/gdtt-terms-cloud/display.php:2
+#: widgets/gdtt-terms-list/display.php:8
+msgid "Additional CSS class"
+msgstr "Extra CSS class"
+
+#: widgets/gdtt-terms-cloud/display.php:8
+msgid "Font size unit"
+msgstr "Font grootte"
+
+#: widgets/gdtt-terms-cloud/display.php:12
+msgid "Smallest term size"
+msgstr "Kleinste label grootte"
+
+#: widgets/gdtt-terms-cloud/display.php:16
+msgid "Largest term size"
+msgstr "Grootste label grootte"
+
+#: widgets/gdtt-terms-cloud/filter.php:2
+#: widgets/gdtt-terms-list/filter.php:2
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: widgets/gdtt-terms-cloud/filter.php:10
+#: widgets/gdtt-terms-list/filter.php:10
+msgid "Sort by"
+msgstr "Sorteer van"
+
+#: widgets/gdtt-terms-cloud/filter.php:13
+#: widgets/gdtt-terms-list/filter.php:13
+msgid "Term name"
+msgstr "Labelnaam"
+
+#: widgets/gdtt-terms-cloud/filter.php:14
+#: widgets/gdtt-terms-list/filter.php:14
+msgid "Posts count"
+msgstr "Aantal berichten"
+
+#: widgets/gdtt-terms-cloud/filter.php:19
+#: widgets/gdtt-terms-list/filter.php:19
+msgid "Order"
+msgstr "Rangschik"
+
+#: widgets/gdtt-terms-cloud/filter.php:22
+#: widgets/gdtt-terms-list/filter.php:22
+msgid "Ascending"
+msgstr "Stijgende"
+
+#: widgets/gdtt-terms-cloud/filter.php:23
+#: widgets/gdtt-terms-list/filter.php:23
+msgid "Descending"
+msgstr "Dalende"
+
+#: widgets/gdtt-terms-list/display.php:2
+msgid "Show number of posts"
+msgstr "Toon aantal berichten"
+
+#: widgets/gdtt-terms-cloud.php:18
+msgid "Display cloud with taxonomy terms."
+msgstr "Toon wolk met Taxonomie labels"
+
+#: widgets/gdtt-terms-list.php:16
+msgid "Display list with taxonomy terms."
+msgstr "Toon lijst met Taxonomie labels"
+
+#: widgets/gdtt-terms-list.php:52
+msgid "post"
+msgstr "bericht"
+
+#: gd-taxonomies-tools.php:160
+msgid "Donate"
+msgstr "Doneer"
+
+#: gd-taxonomies-tools.php:170
+#: gd-taxonomies-tools.php:359
+#: gd-taxonomies-tools.php:420
+msgid "Taxonomies"
+msgstr "Taxonomies"
+
+#: gd-taxonomies-tools.php:358
+msgid "Front Page"
+msgstr "Voorpagina"
+
+#: gd-taxonomies-tools.php:405
+msgid "Tools"
+msgstr "Gereedschap"
+
+#: gd-taxonomies-tools.php:424
+msgid "Add new Taxonomy"
+msgstr "Voeg Taxonomie toe"
+
+#: gd-taxonomies-tools.php:428
+msgid "Edit Taxonomy"
+msgstr "Bewerk Taxonomie"
+
+#~ msgid "With WP 2.8.x not all options work, and they are disabled."
+#~ msgstr ""
+#~ "Ikke alle indstillinger fungerer med WP 2.8.x og er derfor deaktiveret."
+
+#~ msgid "help further development"
+#~ msgstr "støt videreudvikling"
+
+#~ msgid "extended premium version"
+#~ msgstr "udvidet betalingsudgave"

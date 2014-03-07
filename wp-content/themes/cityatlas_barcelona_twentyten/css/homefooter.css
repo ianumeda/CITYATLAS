@@ -1,0 +1,10 @@
+
+/*#footer-menu ul { list-style: none; margin: 4px 0 0 0; }
+#footer-menu li { float: left; position: relative; width: 120px; border-right: solid 2px black; text-transform: uppercase; }
+#footer-menu ul ul li{ clear: left; text-transform: lowercase; }
+*/
+#footer-menu ul ul { position:absolute; }
+#footer-menu ul .menu-popover { display:none; z-index:9999; }
+#footer-menu ul li:hover > ul   { display:block; }
+#footer-menu ul .menu-popover  { top:-220px; height:200px; overflow:hidden; width:480px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding:10px; margin:10px 0px 20px; background:#f0f0f0; }
+#footer-menu ul .menu-popover li  { width:480px; background:inherit; border:none; }

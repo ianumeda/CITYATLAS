@@ -1,0 +1,97 @@
+<!--
+You are free to copy and use this sample in accordance with the terms of the
+Apache license (http://www.apache.org/licenses/LICENSE-2.0.html)
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>
+      Google Visualization API Sample
+    </title>
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load('visualization', '1', {packages: ['corechart']});
+    </script>
+    <script type="text/javascript">
+      function drawVisualization() {
+        // Create and populate the data table.
+        var data = google.visualization.arrayToDataTable([
+	<?php
+		extract($_REQUEST);
+		if(empty($city)) $city="NYC";
+		if(is_numeric($day)) {
+			$theday=strtotime($day);
+		} else {
+			$theday=strtotime('now');
+		}
+		// connect to db
+		include("db_login.php");
+		// get average temp for each month for that year
+		$theyear=date('Y',$theday);
+		$query="SELECT * FROM `atlas_temp_widget` WHERE `day` LIKE '$theyear%' AND `city` = '$city'";
+		$result=mysql_query($query) or die(mysql_error());
+		$row=mysql_fetch_array($result);
+		echo "['x', '$theyear'],";
+		foreach($row as $value){
+			echo "['". $value['day'] ."', ". $value['temp'] ."],";
+		}
+		
+		// for($i=0; $i<12; $i++){
+		// 	$step=date('Y', $today)-50;
+		// 	$fiftyyearsagotoday=$fiftyyearsago.date('md', $today);
+		// 	$
+		// 	$query="SELECT * FROM `atlas_temp_widget` WHERE `day` LIKE '$theyear' AND `city` = '$city' LIMIT 1";
+		// 	$result=mysql_query($query) or die(mysql_error());
+		// 	$row=mysql_fetch_array($result);
+		// }
+		// 
+		// $query="SELECT * FROM `atlas_temp_widget` WHERE `day` = '$day' AND `city` = '$city' LIMIT 1";
+		// $result=mysql_query($query) or die(mysql_error());
+		// $row=mysql_fetch_array($result);
+		// if(!empty($row))
+		// {
+		// 	$temp=(float)$row['temp'];
+		// 	echo "The HI temperature on ". date('l dS \o\f F Y', strtotime($day)) ." in $city was ". $temp ."&deg;F";
+		// } 
+		// else 
+		// {
+		// 	echo "No data found :'( ... try again!";
+		// }
+        // ['x', 'Cats', 'Blanket 1', 'Blanket 2'],
+        // ['A',   1,       1,           0.5],
+        // ['B',   2,       0.5,         1],
+        // ['C',   4,       1,           0.5],
+        // ['D',   8,       0.5,         1],
+        // ['E',   7,       1,           0.5],
+        // ['F',   7,       0.5,         1],
+        // ['G',   8,       1,           0.5],
+        // ['H',   4,       0.5,         1],
+        // ['I',   2,       1,           0.5],
+        // ['J',   3.5,     0.5,         1],
+        // ['K',   3,       1,           0.5],
+        // ['L',   3.5,     0.5,         1],
+        // ['M',   1,       1,           0.5],
+        // ['N',   1,       0.5,         1]
+	?>
+
+        ]);
+      
+        // Create and draw the visualization.
+        new google.visualization.LineChart(document.getElementById('visualization')).
+            draw(data, {curveType: "function",
+                        width: 500, height: 400,
+                        vAxis: {maxValue: 10}}
+                );
+      }
+      
+
+      google.setOnLoadCallback(drawVisualization);
+    </script>
+  </head>
+  <body style="font-family: Arial;border: 0 none;">
+    <div id="visualization" style="width: 500px; height: 400px;"></div>
+  </body>
+</html>
+​

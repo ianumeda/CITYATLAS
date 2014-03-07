@@ -1,0 +1,991 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GD Taxonomies 1.2.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-29 12:25+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_nc:4c,1,2;_nx:4c,1,2;_n_noop:1,2;_nx_noop:4c,1,2;_x:1,2c;_c;esc_html__;esc_html_e;esc_html_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\gd-taxonomies-tools\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\gd-taxonomies-tools\n"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:91
+msgid "Thank you for using this plugin. Please, take a few minutes and check out the Pro version of this plugin and new and improved features, including premium support."
+msgstr "Tak, fordi du bruger dette plugin. Tak venligst et par minutter og kig på Pro-udgaven af dette plugin med nye og udvidede funktioner, inkl. betalingssupport."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:92
+msgid "GD Custom Posts And Taxonomies Tools Pro plugin Editions"
+msgstr "Udgaver af GD Custom Posts And Taxonomies Tools Pro"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:93
+msgid "Don't display this message anymore"
+msgstr "Vis ikke denne meddelelse mere"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:185
+msgid "Custom Taxonomies"
+msgstr "Brugerdefinerede taksonomier"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:187
+msgid "Custom Post Types"
+msgstr "Brugerdefinerede indlægstyper"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:189
+msgid "FAQ"
+msgstr "<span title=\"Ofte stillede spørgsmål\">FAQ</span>"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:190
+msgid "Upgrade to PRO"
+msgstr "Opgradér til PRO"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:200
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:602
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:637
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:111
+msgid "Settings"
+msgstr "Opsætning"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:597
+msgid "Front Page"
+msgstr "Forside"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:599
+msgid "Post Types"
+msgstr "Indlægstyper"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:601
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:743
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:133
+msgid "Taxonomies"
+msgstr "Taksonomier"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:648
+msgid "Tools"
+msgstr "Værktøj"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:658
+msgid "Title"
+msgstr "Titel"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:659
+msgid "Editor"
+msgstr "Redaktør"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:660
+msgid "Excerpts"
+msgstr "Uddrag"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:661
+msgid "Trackbacks"
+msgstr "Trackbacks"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:662
+msgid "Custom Fields"
+msgstr "Brugerdefinerede felter"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:663
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:664
+msgid "Revisions"
+msgstr "Revisioner"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:665
+msgid "Post Thumbnails"
+msgstr "Indlægsminiaturer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:666
+msgid "Author"
+msgstr "Forfatter"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:667
+msgid "Page Attributes"
+msgstr "Sideegenskaber"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:678
+msgid "Custom Posts"
+msgstr "Brugerdefinerede indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:682
+msgid "Add new Custom Posts"
+msgstr "Tilføj nyt brugerdefineret indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:686
+msgid "Edit Custom Posts"
+msgstr "Redigér brugerdefinerede indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:747
+msgid "Add new Taxonomy"
+msgstr "Tilføj ny taksonomi"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/gd-taxonomies-tools.php:751
+msgid "Edit Taxonomy"
+msgstr "Redigér taksonomi"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:3
+msgid "Are you sure? Operation is not reversible."
+msgstr "Er du sikker? Handlingen kan ikke gøres om."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:14
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:34
+msgid "Both name and singular name must be filled first."
+msgstr "Både navn og navn i ental skal udfyldes først."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:16
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:18
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:42
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:48
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/customposts.php:46
+msgid "Add New"
+msgstr "Tilføj ny"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:17
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:19
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:40
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:64
+msgid "Edit"
+msgstr "Redigér"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:20
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:43
+msgid "New"
+msgstr "Ny"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:21
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:25
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:97
+msgid "View"
+msgstr "Vis"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:22
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:37
+msgid "Search"
+msgstr "Søg i"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:23
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:24
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:157
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:170
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:181
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:198
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:208
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:219
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:301
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:311
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:322
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:332
+msgid "No"
+msgstr "Ingen"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:23
+msgid "Found"
+msgstr "fundet"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:24
+msgid "Found In Trash"
+msgstr "fundet i papirkurv"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:26
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:36
+msgid "Parent"
+msgstr "Forælder"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:38
+msgid "Popular"
+msgstr "Populære"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:39
+msgid "All"
+msgstr "Alle"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:41
+msgid "Update"
+msgstr "Opdatér"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:43
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:49
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:59
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:4
+msgid "Name"
+msgstr "Navn"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:50
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:60
+msgid "Label"
+msgstr "Etiket"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:52
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/js.php:62
+msgid "Some fields are required must be filled. Check this: "
+msgstr "Nogle felter <i>skal</i> udfyldes. Tjek: "
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/fnc/display.php:13
+#, php-format
+msgid "View all posts filed under %s"
+msgstr "Vis alle indlæg arkiveret under %s"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/fnc/display.php:27
+#, php-format
+msgid "Feed for all posts filed under %s"
+msgstr "Feed for alle indlæg arkiveret under %s"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/code/fnc/display.php:161
+msgid "No categories"
+msgstr "Ingen kategorier"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.add.php:47
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.edit.php:6
+msgid "Name for the custom post type is invalid. Fix before proceeding."
+msgstr "Navnet på den brugerdefinerede indlægstype er ugyldigt. Ret det, inden du fortsætter."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.add.php:57
+msgid "New custom post type added."
+msgstr "Ny brugerdefineret indlægstype tilføjet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.add.php:59
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.edit.php:18
+msgid "Go Back"
+msgstr "Tilbage"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.edit.php:16
+msgid "New custom post type updated."
+msgstr "Ny brugerdefineret indlægstype opdateret."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:9
+msgid "This must be unique name, not used by any other default or custom post type."
+msgstr "Dette skal være et unikt navn, som ikke bruges af nogen anden stanard- eller brugerdefineret indlægstype."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:10
+msgid "Also, use only lower case letters and no special characters except for the underscore."
+msgstr "Brug endvidere kun små bogstaver og ingen specielle tegn udover understregningstegnet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:14
+msgid "Status"
+msgstr "Status"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:16
+msgid "This custom post type is set to active and will be registered for use."
+msgstr "Denne brugerdefinerede indlægstype er sat til aktiv og vil blive registreret til brug."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:18
+msgid "If you deactivate this custom post type, all the posts associated with it will remain intact."
+msgstr "Hvis du deaktiverer denne brugerdefinerede indlægstype, vil alle indlæg knyttet til det bevares uden ændringer."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:21
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:25
+msgid "No HTML is allowed."
+msgstr "HTML er ikke tilladt."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:28
+msgid "Labels"
+msgstr "Etiketter"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:32
+msgid "Plural Name"
+msgstr "Navn i flertal"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:37
+msgid "Singular Name"
+msgstr "Navn i ental"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:44
+msgid "Auto fill rest"
+msgstr "Auto-udfyld resten"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:53
+msgid "Add New Item"
+msgstr "Tilføj ny"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:59
+msgid "Edit Item"
+msgstr "Redigér"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:70
+msgid "New Item"
+msgstr "Opret"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:75
+msgid "View Item"
+msgstr "Vis"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:81
+msgid "Search Items"
+msgstr "Søg i"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:86
+msgid "Not Found"
+msgstr "Ikke fundet"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:92
+msgid "Not Found In Trash"
+msgstr "Ikke fundet i papirkurv"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:103
+msgid "Parent Item Colon"
+msgstr "<span title=\"parent item colon\">Forælder + kolon</span>"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:116
+msgid "Features"
+msgstr "Funktioner"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:121
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:138
+msgid "(all)"
+msgstr "(alle)"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:152
+msgid "Hierarchical"
+msgstr "Hierarkisk"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:156
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:169
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:180
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:197
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:207
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:218
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:300
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:310
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:321
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:331
+msgid "Yes"
+msgstr "Ja"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:165
+msgid "Rewrite"
+msgstr "Omskrivning"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:176
+msgid "Query Variable"
+msgstr "Forespørgselsvariabel"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:188
+msgid "Visibility"
+msgstr "Synlighed"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:193
+msgid "Public"
+msgstr "Offentlig"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:203
+msgid "Show UI"
+msgstr "Vis <span title=\"user interface - brugerinterface\">UI</span>"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:214
+msgid "Navigation Menus"
+msgstr "Navigeringsmenuer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:225
+msgid "Public setting set to NO will hide posts from the admin UI. Show UI will generate standard UI for post type management. Either of these set to NO will hide the edit panel."
+msgstr "Sættes Offentlig til Nej, skjules indlæggene i kontrolpanelet. Vis UI vil generere standardbrugerinterfaces til håndtering af indlægstyperne. Hvis blot én af disse er sat til Nej, skjules redigeringspanelet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:226
+msgid "Navigational menu option will make custom post type available for building menus."
+msgstr "Indstillings navigeringsmenuer vil gøre brugerdefinerede indlægstyper tilgængelige til brug i menueditoren."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:229
+msgid "Capabilities"
+msgstr "Rettigheder"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:233
+msgid "Edit Post"
+msgstr "Redigér indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:238
+msgid "Edit Posts"
+msgstr "Redigér indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:244
+msgid "Edit Others Posts"
+msgstr "Redigér andres indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:249
+msgid "Publish Posts"
+msgstr "Udgiv indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:255
+msgid "Read Post"
+msgstr "Læs indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:260
+msgid "Read Private Posts"
+msgstr "Læs private indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:266
+msgid "Delete Post"
+msgstr "Slet indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:273
+msgid "Do not change any of these if you are not sure what they are."
+msgstr "Ændr ikke på nogen af disse, med mindre du er sikker på, hvad du gør."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:276
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:281
+msgid "Edit Link"
+msgstr "Redigér link"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:288
+msgid "Rewrite Slug"
+msgstr "Omskriv <span title=\"slug\">korttitel</span>"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:296
+msgid "Rewrite With Front"
+msgstr "Omskriv på Forside"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:306
+msgid "Publicly Queryable"
+msgstr "<span title=\"Publicly queryable\">Alle kan søge</span>"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:317
+msgid "Exclude From Search"
+msgstr "Udelad fra søgninger"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:327
+msgid "Can be Exported"
+msgstr "Kan eksporteres"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:338
+msgid "Changing some of these settings can have undesired effects and can break your website."
+msgstr "Ændring af disse indstillinger kan have uønskede resultater og skabe nedbrud på din hjemmeside."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:338
+msgid "Do not change this if you are not sure about this. Consult WordPress documentation for more details."
+msgstr "Ændr ikke dette, hvis du ikke er sikker på det. Konsultér WordPress-dokumentationen for flere detaljer."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/custompost.form.php:342
+msgid "Save Custom Post"
+msgstr "Gem brugerdefineret indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/customposts.php:10
+msgid "Default Post Types:"
+msgstr "Standardindlægstyper:"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/customposts.php:22
+msgid "Custom Post Types:"
+msgstr "Brugerdefinerede indlægstyper:"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/customposts.php:35
+msgid "Inactive Custom Post Types:"
+msgstr "Inaktive brugerdefinerede indlægstyper:"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/settings.php:4
+msgid "General"
+msgstr "Generelt"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/settings.php:12
+msgid "Save Settings"
+msgstr "Gem indstillinger"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomies.php:9
+msgid "Default Taxonomies:"
+msgstr "Standardtaksonomier:"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomies.php:18
+msgid "Custom Taxonomies:"
+msgstr "Brugerdefinerede taksonomier:"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomies.php:28
+msgid "Inactive Custom Taxonomies:"
+msgstr "Inaktive brugerdefinerede taksonomier:"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomies.php:40
+msgid "Deleting the taxonomy will also delete the relationship entries in the database. Backup your database before proceeding with any deletion operation."
+msgstr "Sletning af taksonomien vil også slette posterne med relationer i databasen. Tag en sikkerhedskopi, inden du fortsætter med at slette noget. "
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomies.php:41
+msgid "After deleting taxonomy, terms relationships in the database will remain."
+msgstr "Efter sletning af en taksonomi forbliver relationerne mellem termer i databasen."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomies.php:42
+msgid "You can change that on the settings panel."
+msgstr "Du kan ændre dette i Opsætning."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.add.php:33
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.edit.php:6
+msgid "Name for the taxonomy is invalid. Fix before proceeding."
+msgstr "Taksonominavnet er ugyldigt. Ret det, inden du fortsætter."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.add.php:43
+msgid "New taxonomy added."
+msgstr "Ny taksonomi tilføjet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.edit.php:16
+msgid "Taxonomy updated."
+msgstr "Taksonomi opdateret."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:8
+msgid "Allow renaming of the taxonomy name. This will cause renaming all database entries for this taxonomy."
+msgstr "Tillad omdøbning af taksonominavnet. Det vil medføre, at alle databaseposter for denne taksonomi bliver omdøbt."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:12
+msgid "This must be unique name, not used by any other taxonomy."
+msgstr "Dette skal være et unikt navn, som ikke bruger af nogen anden taksonomi."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:19
+msgid "This taxonomy is set to active and will be registered for use."
+msgstr "Denne taksonomi er sat til aktiv og vil blive registreret til brug."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:21
+msgid "If you deactivate this taxonomy, all the data associated with it will remain intact."
+msgstr "Hvis du deaktiverer denne taksonomi, vil alle data knyttet til den blive bevaret uden ændringer."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:30
+msgid "Standard"
+msgstr "Standard"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:38
+msgid "This is the display name for the taxonomy. WordPress 3.0 uses different model for labels."
+msgstr "Dette er visningsnavnet for taksonomien. WordPress 3.0 bruger en anden model for etiketter."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:62
+msgid "Parent Item"
+msgstr "Forælder"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:73
+msgid "Popular Items"
+msgstr "Populære"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:78
+msgid "All Items"
+msgstr "Alle"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:84
+msgid "New Item Name"
+msgstr "Nyt navn"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:95
+msgid "Update Item"
+msgstr "Opdatér"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:148
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:167
+msgid "Yes, using name"
+msgstr "Ja, brug navn"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:149
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:168
+msgid "Yes, custom value"
+msgstr "Ja, brug brugerdefineret værdi"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:155
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:174
+msgid "Custom"
+msgstr "Brugerdefineret"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:182
+msgid "For rewrite and query custom variables use only lower case letters and no special characters except for the underscore."
+msgstr "Til egne variabler for omskrivning (rewrites) og forespørgsler (queries) må du kun bruge små bogstaver og understregningstegnet. Ingen andre tegn."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:183
+msgid "With WP 2.8.x and WP 2.9.x not all options work, and they are disabled. Once the WordPress starts supporting this option, they will be enabled."
+msgstr "Ikke alle indstillinger fungerer med WP 2.8.x og WP 2.9.x. Derfor er de deaktiveret. Når WordPress begynder at understøtte denne indstilling, vil de blive aktiveret."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:213
+msgid "Tag Cloud Widget"
+msgstr "Tag-sky-widget"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:234
+msgid "Public setting set to NO will hide taxonomies from the admin UI."
+msgstr "Sættes Offentlig til Nej, skjules taksonomierne i kontrolpanelet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:235
+msgid "Tag cloud option set to NO will exclude this taxonomy from default Tag Cloud widget. Same goes for Navigation Menus."
+msgstr "Sættes tagsky-indstillingen til Nej, udelades denne taksonomi fra standard-tagsky-widgetten. Det samme gælder navigeringsmenuer."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:242
+msgid "Manage terms"
+msgstr "Håndtér termer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:247
+msgid "Edit terms"
+msgstr "Redigér termer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:253
+msgid "Delete terms"
+msgstr "Slet termer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:258
+msgid "Assign terms"
+msgstr "Tilknyt termer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/admin/taxonomy.form.php:270
+msgid "Save Taxonomy"
+msgstr "Gem taksonomi"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/general.php:17
+msgid "Basic Custom Posts Statistics"
+msgstr "Grundlæggende statistik for brugerdefinerede indlæg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/general.php:19
+msgid "Default Posts Types"
+msgstr "Standard-indlægstyper"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/general.php:31
+msgid "Custom Posts Types"
+msgstr "Brugerdefinerede indlægstyper"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/general.php:44
+msgid "No custom post types found."
+msgstr "Ingen brugerdefinerede indlægstyper fundet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/general.php:51
+msgid "Basic statistics"
+msgstr "Grundlæggende statistik"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/general.php:53
+msgid "Default Taxonomies"
+msgstr "Standardtaksonomier"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/general.php:74
+msgid "No custom taxonomies found."
+msgstr "Ingen brugerdefinerede taksonomier fundet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:4
+msgid "Info"
+msgstr "Info"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:8
+msgid "Version"
+msgstr "Version"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:9
+msgid "release date"
+msgstr "udgivelsesdato"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:13
+msgid "Change Log"
+msgstr "Log over ændringer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:14
+msgid "detailed list of changes"
+msgstr "detaljeret liste over ændringer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:15
+msgid "show"
+msgstr "vis"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:19
+msgid "Links"
+msgstr "Links"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:24
+msgid "discussions group"
+msgstr "diskussionsgruppe"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:25
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:30
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:40
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:55
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:65
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:70
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:75
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:80
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:94
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:99
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:104
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:109
+msgid "visit"
+msgstr "besøg"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:29
+msgid "wordpress plugin page"
+msgstr "WordPress-pluginside"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:34
+msgid "Pro Edition"
+msgstr "Pro-udgave"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:39
+msgid "official plugin page"
+msgstr "officiel pluginside"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:49
+msgid "Themes"
+msgstr "Temaer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:54
+msgid "advanced theme framework"
+msgstr "Avanceret temaframework"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:59
+msgid "Plugins"
+msgstr "Plugins"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:64
+msgid "wordpress ratings system"
+msgstr "Bedømmelsessystem til WordPress"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:69
+msgid "a wordpress administration addon"
+msgstr "Administrationssystem til WordPress"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:74
+msgid "custom taxonomies managment"
+msgstr "håndtering af egne taksonomier"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:79
+msgid "ad management control"
+msgstr "Annoncehåndtering"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:92
+msgid "Official Website"
+msgstr "Officiel website"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:93
+msgid "golden dragon official web portal"
+msgstr "golden dragons officielle webportal"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:98
+msgid "wordpress development"
+msgstr "WordPress-udvikling"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:103
+msgid "tv shows reviews and news"
+msgstr "tv viser anmeldelser og nyheder"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:107
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/modules/info.php:108
+msgid "development discussion forum"
+msgstr "Supportforum for udviklere"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.header.php:6
+msgid "Public / UI"
+msgstr "Offentlig/<span title=\"userinterface\">UI</span>"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.header.php:10
+msgid "Items"
+msgstr "Antal"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.header.php:11
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.header.php:11
+msgid "Options"
+msgstr "Indstillinger"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:18
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:19
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:21
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:22
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:26
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:28
+msgid "yes"
+msgstr "ja"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:18
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:19
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:21
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:22
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:26
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:28
+msgid "no"
+msgstr "nej"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:27
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:32
+msgid "delete"
+msgstr "slet"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:28
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:33
+msgid "edit"
+msgstr "redigér"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/cpt.item.php:31
+msgid "open"
+msgstr "åbn"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.front.php:3
+msgid "for"
+msgstr "for"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.front.php:3
+msgid "hierarchical"
+msgstr "hierarkisk"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.header.php:4
+msgid "Domain"
+msgstr "Domænenavn"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.header.php:8
+msgid "Query"
+msgstr "Forespørgsel"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.header.php:10
+msgid "Terms"
+msgstr "Termer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:35
+msgid "menus"
+msgstr "menuer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/render/tax.item.php:37
+msgid "terms"
+msgstr "termer"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/settings/general.php:2
+msgid "Delete"
+msgstr "Slet"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/settings/general.php:4
+msgid "Delete terms from database once the taxonomy is deleted."
+msgstr "Slet termer fra databaser, når en taksonomi er slettet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/settings/general.php:6
+msgid "If this options is not checked, after deleting taxonomy all it's terms will remain in the database."
+msgstr "Hvis denne indstilling ikke er afkrydset, bliver alle en taksonomis termer i databasen, når den er slettet."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/forms/shared/front.header.php:9
+msgid "plugin for custom taxonomies management"
+msgstr "plugin til håndtering af egne taksonomier"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud.php:21
+msgid "Display cloud with taxonomy terms."
+msgstr "Vis sky med taksonomitermer."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list.php:21
+msgid "Display list with taxonomy terms."
+msgstr "Vis liste med taksonomitermer."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/basic.php:7
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list/basic.php:7
+msgid "Maximum terms to show"
+msgstr "Max termer, der skal vises"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/display.php:3
+msgid "Additional CSS class"
+msgstr "Ekstra CSS-klasse"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/display.php:9
+msgid "Font size unit"
+msgstr "Enhed for skriftstørrelse"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/display.php:13
+msgid "Smallest term size"
+msgstr "Mindste termstørrelse"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/display.php:17
+msgid "Largest term size"
+msgstr "Største termstørrelse"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:3
+msgid "Taxonomy"
+msgstr "Taxonomy"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:11
+msgid "Sort by"
+msgstr "Sortér efter"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:14
+msgid "Term name"
+msgstr "Navn på term"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:15
+msgid "Posts count"
+msgstr "Indlægstæller"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:20
+msgid "Order"
+msgstr "Rækkefølge"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:23
+msgid "Ascending"
+msgstr "Stigende"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:24
+msgid "Descending"
+msgstr "Faldende"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:29
+msgid "Exclude"
+msgstr "Ekskludér"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:32
+msgid "Comma or space separated list of term ID's."
+msgstr "Komma- eller mellemrumssepareret liste af id&#39;er på termer."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-cloud/filter.php:36
+msgid "Hide empty"
+msgstr "Skjul tomme"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list/display.php:3
+msgid "Display as"
+msgstr "Vis som"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list/display.php:6
+msgid "List"
+msgstr "Liste"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list/display.php:7
+msgid "Drop down"
+msgstr "Dropdown"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list/display.php:12
+msgid "First Option"
+msgstr "Første valgmulighed"
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list/display.php:15
+msgid "Used only for drop down display."
+msgstr "Anvendes kun på dropdown-visning."
+
+#: d:\wordpress\plugins\gd-taxonomies-tools/widgets/gdtt-terms-list/display.php:23
+msgid "Show number of posts"
+msgstr "Vis antal indlæg"
+
+#~ msgid "Donate"
+#~ msgstr "Donér"
+
+#~ msgid "Sitemap"
+#~ msgstr "sitemap"
+
+#~ msgid "Taxonomy is set to active."
+#~ msgstr "Taksonomi er sat til aktiv."
+
+#~ msgid "posts"
+#~ msgstr "indlæg"
+
+#~ msgid "Lite / Pro"
+#~ msgstr "Lite / Pro"
+
+#~ msgid "both editions of the plugin"
+#~ msgstr "begge udgaver af dette plugin"
+
+#~ msgid "Rebuild"
+#~ msgstr "Genetableret"
+
+#~ msgid "Add custom taxonomies terms URL's to sitemap file."
+#~ msgstr "Tilføj URL&#39;er for egne taksonomitermer til sitemap-filen."
+
+#~ msgid ""
+#~ "This option requires XML Sitemap Generator plugin. Once the sitemap is "
+#~ "generated, new terms URL's will be added to it."
+#~ msgstr ""
+#~ "Denne indstilling kræver XML Sitemap Generator-pluginnet. Når sitemappen "
+#~ "genereres, vil URL&#39;er til nye termer blive tilføjet."
+
+#~ msgid "post"
+#~ msgstr "indlæg"
+
+#~ msgid "With WP 2.8.x not all options work, and they are disabled."
+#~ msgstr ""
+#~ "Ikke alle indstillinger fungerer med WP 2.8.x og er derfor deaktiveret."
+
+#~ msgid "help further development"
+#~ msgstr "støt videreudvikling"
+
+#~ msgid "extended premium version"
+#~ msgstr "udvidet betalingsudgave"

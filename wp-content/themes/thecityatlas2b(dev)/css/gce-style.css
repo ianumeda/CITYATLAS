@@ -1,0 +1,20 @@
+div.gce-page-list { font-family:'Helvetica Neue', Helvetica, sans-serif; font-size:18px; color:#333; clear:both; width:100%;}
+div.gce-page-list a { color:#b1d235; text-decoration:none; }
+div.gce-page-list a:hover { color:#000; }
+ul.gce-list { display:block; }
+#events ul.gce-list li { float:left; padding:10px 0; width:100%;}
+#events ul.gce-list li ul li { width: 278px; min-height:220px; overflow:hidden; float: left; margin: 6px; padding: 6px; background: #FCFCFC; border: 1px solid #AAA; }
+#events ul.gce-list li ul li:hover { background:#b1d235; }
+div.gce-list-title { text-transform:uppercase; font-size:2em; line-height:1.4em; border-bottom:2px solid #999; font-weight:bold; margin:10px;}
+span.gce-info-head { color:black; font-weight:bold; font-size:.7em; text-transform:uppercase; margin-right:8px; }
+span.gce-time { }
+span.gce-time-separator {color:black; font-weight:bold; font-size:.7em; text-transform:uppercase; margin:0 6px;}
+span.gce-info-head a { color:black; }
+span.gce-info-head a:hover { color:#000; }
+div.gce-info { margin:6px 0; font-size:.8em; }
+div.gce-title { font-weight:bold; background:transparent; font-size:1em; line-height:1.2em; text-transform:uppercase; }
+div.gce-title a { text-decoration:none; color:#b1d235; }
+.gce-page-list .gce-list .gce-list-event { background:transparent;}
+ul.gce-list li ul li a { color:#000; }
+ul.gce-list li ul li:hover > a { color:#b1d235; }
+div.events-google-calendar-link { float:right; margin: 0 8px; font-size:10px; }

@@ -1,0 +1,5 @@
+[22-Mar-2013 20:59:53 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/cityatla/public_html/wp-content/themes/twentytwelve/footer.php on line 16
+[22-Mar-2013 21:00:16 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/cityatla/public_html/wp-content/themes/twentytwelve/footer.php on line 16
+[22-Mar-2013 21:03:29 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/cityatla/public_html/wp-content/themes/twentytwelve/footer.php on line 16
+[22-Mar-2013 21:07:13 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/cityatla/public_html/wp-content/themes/twentytwelve/footer.php on line 16
+[22-Mar-2013 21:08:10 UTC] PHP Fatal error:  Call to undefined function do_action() in /home/cityatla/public_html/wp-content/themes/twentytwelve/footer.php on line 16
